@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+# Logs / coverage
+*.log
+.coverage
+.pytest_cache/
+# SAM
+.aws-sam/
+.sam-sync/
+# Docker
+*.tar
+# Editors
+.vscode/
+.idea/
+# Local env
+.env
+.env.*
+easytithe_bot/hello_world/chromedriver
+easytithe_bot/hello_world/headless-chromium
+# Secrets and archives
+
+past files/lambda-admin_accessKeys.csv
+
+*.zip
+
