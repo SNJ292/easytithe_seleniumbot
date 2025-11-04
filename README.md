@@ -67,8 +67,4 @@ sam deploy
 - Memory/timeouts:
   - Increase `Globals -> Function -> MemorySize` and `Timeout` in `template.yaml`.
 
-## Safety & repo hygiene
-- Do not commit build artifacts or secrets. `.gitignore` excludes: `.aws-sam/`, `__pycache__/`, env files, editor folders. Avoid committing archives (e.g., `*.zip`) or old binaries.
 
-## License
-Choose a license (e.g., MIT) before publishing broadly.
